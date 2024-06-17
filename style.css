@@ -1,0 +1,87 @@
+body {
+    background: #f0ece2;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.nav-wrapper {
+    background: #c7b198;
+}
+
+.page-footer{
+    background: #596e79; 
+}
+.acercade{
+    display: flex;
+    text-align: left;
+}
+
+.tablausuarios{
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.formulario{
+    margin-top: 55%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.botonenviar{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor-img{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 90vw;
+}
+.imagen{
+    display: block;
+    width: 90%;
+}
+
+.navbar-brand{
+    padding-left: 5%;
+}
+
+.acerca-de{
+    background: #7A7C65;
+    color: white;
+
+}
+
+.texto-acerca{
+    padding: 100px;
+
+}
+
+.texto-sobre-imagen {
+    position: absolute;
+    top: 50%; /* Centra el texto verticalmente */
+    left: 50%; /* Centra el texto horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta el centro exacto */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center; /* Alineación del texto */
+  }
+
+.card-trabajador{
+    padding-top: 5%;
+}
+
+#miFormulario{
+    padding-top: 3%;
+}
